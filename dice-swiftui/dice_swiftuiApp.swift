@@ -11,7 +11,7 @@ import SwiftUI
 struct dice_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }

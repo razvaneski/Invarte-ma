@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		8A4BBBA12823DC6400263904 /* dice_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBA02823DC6400263904 /* dice_swiftuiApp.swift */; };
-		8A4BBBA32823DC6400263904 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBA22823DC6400263904 /* ContentView.swift */; };
 		8A4BBBA52823DC6500263904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BBBA42823DC6500263904 /* Assets.xcassets */; };
 		8A4BBBA82823DC6500263904 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BBBA72823DC6500263904 /* Preview Assets.xcassets */; };
+		8A4BBBAF2823DD1D00263904 /* DiceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBAE2823DD1D00263904 /* DiceScreen.swift */; };
+		8A4BBBB12823DD6600263904 /* DiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBB02823DD6600263904 /* DiceViewModel.swift */; };
+		8A4BBBB32823DE0F00263904 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBB22823DE0F00263904 /* Utils.swift */; };
+		8A4BBBB52823DEF400263904 /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBB42823DEF400263904 /* HistoryScreen.swift */; };
+		8A4BBBB72823E20100263904 /* DoubleDiceDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBB62823E20100263904 /* DoubleDiceDialog.swift */; };
+		8A4BBBBB2823E29100263904 /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BBBBA2823E29100263904 /* TitanOne-Regular.ttf */; };
+		8A4BBBBE2823E3AE00263904 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBBD2823E3AE00263904 /* SplashScreen.swift */; };
+		8A4BBBC02823E53300263904 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BBBBF2823E53300263904 /* RootView.swift */; };
+		E553FC022826AB6900203F6C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E553FC012826AB6900203F6C /* Lottie */; };
+		E553FC042826ADEA00203F6C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553FC032826ADEA00203F6C /* LottieView.swift */; };
+		E553FC082826AE0500203F6C /* Dice_shuffle_01.json in Resources */ = {isa = PBXBuildFile; fileRef = E553FC062826AE0500203F6C /* Dice_shuffle_01.json */; };
+		E553FC092826AE0500203F6C /* Dice_shuffle_02.json in Resources */ = {isa = PBXBuildFile; fileRef = E553FC072826AE0500203F6C /* Dice_shuffle_02.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A4BBB9D2823DC6400263904 /* dice-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dice-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4BBBA02823DC6400263904 /* dice_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dice_swiftuiApp.swift; sourceTree = "<group>"; };
-		8A4BBBA22823DC6400263904 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A4BBBA42823DC6500263904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A4BBBA72823DC6500263904 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A4BBBAE2823DD1D00263904 /* DiceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceScreen.swift; sourceTree = "<group>"; };
+		8A4BBBB02823DD6600263904 /* DiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewModel.swift; sourceTree = "<group>"; };
+		8A4BBBB22823DE0F00263904 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8A4BBBB42823DEF400263904 /* HistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+		8A4BBBB62823E20100263904 /* DoubleDiceDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDiceDialog.swift; sourceTree = "<group>"; };
+		8A4BBBBA2823E29100263904 /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
+		8A4BBBBC2823E2A300263904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8A4BBBBD2823E3AE00263904 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		8A4BBBBF2823E53300263904 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E553FC032826ADEA00203F6C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		E553FC062826AE0500203F6C /* Dice_shuffle_01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dice_shuffle_01.json; sourceTree = "<group>"; };
+		E553FC072826AE0500203F6C /* Dice_shuffle_02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dice_shuffle_02.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E553FC022826AB6900203F6C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +74,19 @@
 		8A4BBB9F2823DC6400263904 /* dice-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				8A4BBBBC2823E2A300263904 /* Info.plist */,
+				E553FC052826AE0500203F6C /* Lottie */,
+				8A4BBBB82823E25D00263904 /* Resources */,
 				8A4BBBA02823DC6400263904 /* dice_swiftuiApp.swift */,
-				8A4BBBA22823DC6400263904 /* ContentView.swift */,
-				8A4BBBA42823DC6500263904 /* Assets.xcassets */,
 				8A4BBBA62823DC6500263904 /* Preview Content */,
+				8A4BBBAE2823DD1D00263904 /* DiceScreen.swift */,
+				8A4BBBB42823DEF400263904 /* HistoryScreen.swift */,
+				8A4BBBB02823DD6600263904 /* DiceViewModel.swift */,
+				8A4BBBB62823E20100263904 /* DoubleDiceDialog.swift */,
+				8A4BBBB22823DE0F00263904 /* Utils.swift */,
+				8A4BBBBF2823E53300263904 /* RootView.swift */,
+				8A4BBBBD2823E3AE00263904 /* SplashScreen.swift */,
+				E553FC032826ADEA00203F6C /* LottieView.swift */,
 			);
 			path = "dice-swiftui";
 			sourceTree = "<group>";
@@ -65,6 +97,32 @@
 				8A4BBBA72823DC6500263904 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A4BBBB82823E25D00263904 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BBBB92823E28700263904 /* Font */,
+				8A4BBBA42823DC6500263904 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A4BBBB92823E28700263904 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BBBBA2823E29100263904 /* TitanOne-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E553FC052826AE0500203F6C /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				E553FC062826AE0500203F6C /* Dice_shuffle_01.json */,
+				E553FC072826AE0500203F6C /* Dice_shuffle_02.json */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +141,9 @@
 			dependencies = (
 			);
 			name = "dice-swiftui";
+			packageProductDependencies = (
+				E553FC012826AB6900203F6C /* Lottie */,
+			);
 			productName = "dice-swiftui";
 			productReference = 8A4BBB9D2823DC6400263904 /* dice-swiftui.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +172,9 @@
 				Base,
 			);
 			mainGroup = 8A4BBB942823DC6400263904;
+			packageReferences = (
+				E553FC002826AB6900203F6C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 8A4BBB9E2823DC6400263904 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A4BBBA82823DC6500263904 /* Preview Assets.xcassets in Resources */,
+				E553FC082826AE0500203F6C /* Dice_shuffle_01.json in Resources */,
+				8A4BBBBB2823E29100263904 /* TitanOne-Regular.ttf in Resources */,
+				E553FC092826AE0500203F6C /* Dice_shuffle_02.json in Resources */,
 				8A4BBBA52823DC6500263904 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4BBBA32823DC6400263904 /* ContentView.swift in Sources */,
+				8A4BBBC02823E53300263904 /* RootView.swift in Sources */,
+				8A4BBBB12823DD6600263904 /* DiceViewModel.swift in Sources */,
+				E553FC042826ADEA00203F6C /* LottieView.swift in Sources */,
+				8A4BBBAF2823DD1D00263904 /* DiceScreen.swift in Sources */,
+				8A4BBBBE2823E3AE00263904 /* SplashScreen.swift in Sources */,
 				8A4BBBA12823DC6400263904 /* dice_swiftuiApp.swift in Sources */,
+				8A4BBBB52823DEF400263904 /* HistoryScreen.swift in Sources */,
+				8A4BBBB32823DE0F00263904 /* Utils.swift in Sources */,
+				8A4BBBB72823E20100263904 /* DoubleDiceDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +341,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"dice-swiftui/Preview Content\"";
-				DEVELOPMENT_TEAM = U2329EW9VW;
+				DEVELOPMENT_TEAM = 6258N925Q3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dice-swiftui/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -280,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.mready.dice-swiftui";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuyu.dice-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,12 +370,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"dice-swiftui/Preview Content\"";
-				DEVELOPMENT_TEAM = U2329EW9VW;
+				DEVELOPMENT_TEAM = 6258N925Q3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dice-swiftui/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +383,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.mready.dice-swiftui";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tuyu.dice-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E553FC002826AB6900203F6C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E553FC012826AB6900203F6C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E553FC002826AB6900203F6C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A4BBB952823DC6400263904 /* Project object */;
 }
